@@ -13,12 +13,15 @@ Sivujen javascript toiminta on ollut kuviin liittyvää.
 
 MIKÄ ON SEN TARKOITUS?
 
-Suomen peto eläimet verkkosivun, tarkoitus on antaa perustietoa muutamasta suomen petoeläimistä sen lukijalle.
+Suomen peto eläimet verkkosivun, tarkoitus on antaa perustietoa muutamasta suomen petoeläimistä sen lukijalle sivustot
+on pyritty luomaan visuaalisesti mukavaksi sen lukijoille.
 
 - Pääsivun tarkoitus on esitellä mistä eläimestä tällä verkkosivulla voi lukea, joten kuva vaihtuu muutaman sekunnin välein.
 - Susi sivulla voit lukea susista ja kuva on siellä mysteeri, kun siitä painaa niin kuva vaihtuu toiseen.
 - Karhusivulla voit lukea karhuista ja tälläkin sivulla on oma mysteerinsä, kun menee hiirellä karhun kuvien ylitse niin ne vaihtuvat talvisiin, jonka tarkoitus on luoda tunnette varkkosivulle.
 - Ilves sivulla voit lukea ilveksistä, tällä sivulla on yksinäinen ilves, joka väijyy se katoaa sekunnin välein ja tulee takaisin jonka tarkoitus on luoda visuaalista tunnette, verkkosivulle.
+
+- 
 
 
 TARKEMMAT SELITYKSET JAVASCRIPT TOIMINOLLE VERKKOSIVUILLA
@@ -29,7 +32,8 @@ PÄÄSIVU
 
 - Skriptin Toiminto var image = document.getElementById("image") - Hakee HTML-dokumentista kuvaelementin, jolla on id "image".
 
-- var images - Määrittelee taulukon, jossa on polut kuvien lähdetiedostoihin. volgendefoto(): - Vaihtaa kuvan kuvataulukossa seuraavaan kuvaa. setInterval(volgendefoto) - Käynnistää volgendefoto()-funktion ajoituksen mukaan vaihtaa kuvan automaattisesti.
+- var images - Määrittelee taulukon, jossa on polut kuvien lähdetiedostoihin.
+- -volgendefoto(): - Vaihtaa kuvan kuvataulukossa seuraavaan kuvaan. setInterval(volgendefoto) - Käynnistää volgendefoto()-funktion ajoituksen mukaan vaihtaa kuvan automaattisesti.
 
 KARHU-SIVU
 
