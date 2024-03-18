@@ -10,6 +10,7 @@ Pääsivulla kuva vaihtuu automaattisesti muutaman sekunnin välein
 Susi-sivulla kuva vaihtuu, kun painaa itse kuvasta.
 Karhu-sivulla on kolme erillaista kuvaa, jotka vaihtuvat kesäisestä tyylistä talviseen, kun niiden päälle menee hiirellä.
 Ilves-sivulla on pieni animaatio, jossa ilmestyy ja katoaa.
+
 MIKÄ ON SEN TARKOITUS?
 
 Suomen peto eläimet verkkosivun, tarkoitus on antaa perustietoa muutamasta suomen petoeläimistä sen lukijalle.
