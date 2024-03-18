@@ -3,7 +3,7 @@ README
 VERKKOSIVUJEN PERUSTOIMINTA
 
 Sovellukseni koostuu neljästä sivusta, Pääsivu, Susi-sivu, Karhu-sivu ja Ilves-sivusta. 
-Jokaisella sivulla on omanlainen taustakuva suomalaiseen metsään liittyen. 
+Jokaisella sivulla on omanlainen kuva taustana suomalaiseen metsään liittyen. 
 Sivuilla on hieman tekstiä, jotka kertoo perus informaatiota.
 Verkkosivuilla on myös menu, jonka avulla voit vaivattomasti liikkua sivujen välillä.
 
