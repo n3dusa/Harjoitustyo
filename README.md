@@ -6,19 +6,21 @@ Sovellukseni koostuu neljästä sivusta, Pääsivu, Susi-sivu, Karhu-sivu ja Ilv
 
 Sivujen javascript toiminta on ollut kuviin liittyvää.
 
-Pääsivulla kuva vaihtuu automaattisesti muutaman sekunnin välein
-Susi-sivulla kuva vaihtuu, kun painaa itse kuvasta.
-Karhu-sivulla on kolme erillaista kuvaa, jotka vaihtuvat kesäisestä tyylistä talviseen, kun niiden päälle menee hiirellä.
-Ilves-sivulla on pieni animaatio, jossa ilmestyy ja katoaa.
+- Pääsivulla kuva vaihtuu automaattisesti muutaman sekunnin välein
+- Susi-sivulla kuva vaihtuu, kun painaa itse kuvasta.
+- Karhu-sivulla on kolme erillaista kuvaa, jotka vaihtuvat kesäisestä tyylistä talviseen, kun niiden päälle menee hiirellä.
+- Ilves-sivulla on pieni animaatio, jossa ilmestyy ja katoaa.
 
 MIKÄ ON SEN TARKOITUS?
 
 Suomen peto eläimet verkkosivun, tarkoitus on antaa perustietoa muutamasta suomen petoeläimistä sen lukijalle.
 
-Pääsivun tarkoitus on esitellä mistä eläimestä tällä verkkosivulla voi lukea, joten kuva vaihtuu muutaman sekunnin välein.
-Susi sivulla voit lukea susista ja kuva on siellä mysteeri, kun siitä painaa niin kuva vaihtuu toiseen.
-Karhusivulla voit lukea karhuista ja tälläkin sivulla on oma mysteerinsä, kun menee hiirellä karhun kuvien ylitse niin ne vaihtuvat talvisiin, jonka tarkoitus on luoda tunnette varkkosivulle.
-Ilves sivulla voit lukea ilveksistä, tällä sivulla on yksinäinen ilves, joka väijyy se katoaa sekunnin välein ja tulee takaisin jonka tarkoitus on luoda visuaalista tunnette, verkkosivulle.
+- Pääsivun tarkoitus on esitellä mistä eläimestä tällä verkkosivulla voi lukea, joten kuva vaihtuu muutaman sekunnin välein.
+- Susi sivulla voit lukea susista ja kuva on siellä mysteeri, kun siitä painaa niin kuva vaihtuu toiseen.
+- Karhusivulla voit lukea karhuista ja tälläkin sivulla on oma mysteerinsä, kun menee hiirellä karhun kuvien ylitse niin ne vaihtuvat talvisiin, jonka tarkoitus on luoda tunnette varkkosivulle.
+- Ilves sivulla voit lukea ilveksistä, tällä sivulla on yksinäinen ilves, joka väijyy se katoaa sekunnin välein ja tulee takaisin jonka tarkoitus on luoda visuaalista tunnette, verkkosivulle.
+
+
 TARKEMMAT SELITYKSET JAVASCRIPT TOIMINOLLE VERKKOSIVUILLA
 
 PÄÄSIVU
