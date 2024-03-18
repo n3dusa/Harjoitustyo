@@ -1,0 +1,88 @@
+body {
+    background: url("../Kuvat/Finland.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.järvet {
+    background-image: url(../Kuvat/Järvi.jpg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hori li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.hori li img {
+    display: inline;
+    margin-right: 10px;
+    width: 40px;
+    height: 25px;
+}
+
+.hori li a {
+    text-decoration: none;
+    color: rgb(227, 227, 227);
+    font-size: 28px;
+    margin-right: 30px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contain {
+    overflow: hidden;
+    display: flex;
+    background-color: aliceblue;
+    opacity: 0.7;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%; 
+    max-width: 800px; 
+    height: auto; 
+}
+
+.texty {
+    flex: 1;
+    padding: 20px;
+    width: 300px;
+}
+
+.kuva {
+    flex: 1;
+    padding: 20px;
+    height: auto; 
+}
+
+#image {
+    width: 100%;
+    max-width: 500px; 
+    height: auto; 
+    border-radius: 10px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .contain {
+        flex-direction: column;
+    }
+    .texty,
+    .kuva {
+        width: 100%;
+    }
+}
+

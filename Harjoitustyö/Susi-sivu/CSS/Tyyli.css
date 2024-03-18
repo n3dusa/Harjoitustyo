@@ -1,0 +1,108 @@
+body {
+    background: url("../Kuvat/Wonter.jpg");
+    background-repeat: repeat;
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.järvet {
+    background-image: url(../Kuvat/Järvi.jpg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.hori li {
+    display: inline;
+    margin-right: 3vw; 
+}
+
+.hori li img {
+    display: inline;
+    margin-right: 1vw; 
+    width: 5vw; 
+    height: auto; 
+}
+
+.hori li a {
+    text-decoration: none;
+    color: rgb(227, 227, 227);
+    font-size: 2.5vw; 
+    margin-right: 3vw; 
+}
+
+h1 {
+    color: rgb(26, 26, 87);
+    font-size: 4vw; 
+}
+
+p {
+    border-radius: 10px;
+    max-width: 100%; 
+    height: auto; 
+}
+
+.contain {
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 10px;
+    opacity: 0.8;
+    width: 90%; 
+    max-width: 800px; 
+}
+
+.Texty {
+    flex: 1;
+    padding: 2vw; 
+    width: 30vw; 
+}
+
+.kuva {
+    flex: 1;
+    padding: 2vw; 
+}
+
+.Wolfey {
+    text-align: center; 
+    width: 40vw; 
+}
+
+.Wolfey img {
+    border-radius: 10px; 
+    cursor: pointer; 
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 6vw; 
+    }
+
+    .hori li img {
+        width: 10vw; 
+    }
+
+    .hori li a {
+        font-size: 4vw; 
+        margin-right: 2vw; 
+    }
+
+    .contain {
+        flex-direction: column; 
+    }
+
+    .Texty, .kuva, .Wolfey {
+        width: 80%; 
+        padding: 5vw; 
+    }
+
+    .Wolfey img {
+        width: 80%; 
+    }
+}
