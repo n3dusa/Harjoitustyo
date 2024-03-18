@@ -46,14 +46,13 @@ ILves sivulla on läpinäkyvyysanimaatio Tämä JavaScript-skripti tarjoaa yksin
 Skriptin Toiminto
 
 - Skripti hakee HTML-elementin id:llä "image" - käyttäen document.getElementById('image'). Se alustaa muuttujat opacity aloitusarvolla 0,1 ja direction arvolla 1.
-- setInterval()-funktiota - käytetään suorittamaan koodilohkoa toistuvasti määritetyn aikavälin, tässä tapauksessa 150 millisekunnin, välein. Interval-funktion sisällä läpinäkyvyyden arvoa kasvatetaan tai vähennetään 0,1 riippuen suunnasta. Elementin läpinäkyvyys päivitetään uudella arvolla. Jos läpinäkyvyys saavuttaa joko 0,9 tai 0,1, suunta kääntyy kertomalla se -1:llä, muuttaen tehokkaasti läpinäkyvyyden muutoksen suuntaa. Tämä skripti luo jatkuvan sykkivän vaikutuksen, kun elementin läpinäkyvyyttä siirretään pehmeästi. Säädä parametreja tai integroi se muiden toiminnallisuuksien kanssa tarpeidesi mukaan projektissasi.
+- setInterval()-funktiota - käytetään suorittamaan koodilohkoa toistuvasti määritetyn aikavälin välein.
+- Interval-funktion sisällä läpinäkyvyyden arvoa kasvatetaan tai vähennetään 0,1 riippuen suunnasta. Elementin läpinäkyvyys päivitetään uudella arvolla. Jos läpinäkyvyys saavuttaa joko 0,9 tai 0,1, suunta kääntyy kertomalla se -1:llä, muuttaen tehokkaasti läpinäkyvyyden muutoksen suuntaa.
+- Tämä skripti luo jatkuvan sykkivän vaikutuksen, kun elementin läpinäkyvyyttä siirretään pehmeästi. Säädä parametreja tai integroi se muiden toiminnallisuuksien kanssa tarpeidesi mukaan projektissasi.
 
 Tämä JavaScript-funktio vaihtaa kuvaa annetun logiikan mukaisesti. Funktion toiminta selitetään alla:
 
-Alustetaan muuttuja currentImage arvolla 1, joka edustaa nykyistä kuvaa.
-
-Kun funktiota changeImage() kutsutaan:
-
-Tarkistetaan currentImage-muuttujan arvo:
+- Alustetaan muuttuja currentImage arvolla 1, joka edustaa nykyistä kuvaa.
+- Kun funktiota changeImage() kutsutaan: Tarkistetaan currentImage-muuttujan arvo:
 
 - Jos currentImage on , vaihdetaan kuvan lähde (src-ominaisuus) kuvaksi "Kuvat" ja muutetaan currentImage-muuttujan arvoa 2:ksi. Jos currentImage ei ole 1, 2 tai 3 (eli se on 4 tai mikä tahansa muu arvo), vaihdetaan kuvan lähde (src-ominaisuus) kuvaksi muutetaan currentImage-muuttujan arvoa takaisin 1:ksi.
